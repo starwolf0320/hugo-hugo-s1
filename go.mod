@@ -2,10 +2,10 @@ module github.com/gohugoio/hugo
 
 require (
 	github.com/BurntSushi/locker v0.0.0-20171006230638-a6e239ea1c69
-	github.com/PuerkitoBio/purell v1.1.1
+	github.com/PuerkitoBio/purell v1.2.0
 	github.com/alecthomas/chroma/v2 v2.2.0
 	github.com/armon/go-radix v1.0.0
-
+	github.com/aws/aws-sdk-go v1.43.31
 	github.com/bep/clock v0.3.0
 	github.com/bep/debounce v1.2.0
 	github.com/bep/gitmap v1.1.2
@@ -60,7 +60,7 @@ require (
 	go.uber.org/atomic v1.9.0
 	gocloud.dev v0.26.0
 	golang.org/x/image v0.0.0-20211028202545-6944b10bf410
-	golang.org/x/net v0.0.0-20220607020251-c690dde0001d
+	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/text v0.3.7
 	golang.org/x/tools v0.1.11
@@ -81,7 +81,6 @@ require (
 	github.com/Azure/go-autorest/autorest/date v0.3.0 // indirect
 	github.com/Azure/go-autorest/logger v0.2.1 // indirect
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
-	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.16.2 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.4.1 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.15.3 // indirect
